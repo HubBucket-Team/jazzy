@@ -22,12 +22,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'open4'
   spec.add_runtime_dependency 'redcarpet', '~> 3.4.0'
   spec.add_runtime_dependency 'rouge', ['>= 2.0.6', '< 4.0']
-  spec.add_runtime_dependency 'sass', '~> 3.6.0'
+  spec.add_runtime_dependency 'sassc', '~> 2.0.0'
   spec.add_runtime_dependency 'sqlite3', '~> 1.3.13'
   spec.add_runtime_dependency 'xcinvoke', '~> 0.3.0'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.3'
 
-  spec.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '>= 2.3.3'
 end

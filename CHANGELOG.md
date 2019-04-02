@@ -2,7 +2,9 @@
 
 ##### Breaking
 
-* None.
+* Drop support for Ruby earlier than 2.3.3 as part of switching to the
+  sassc gem.  
+  [John Fairhurst](https://github.com/johnfairh)
 
 ##### Enhancements
 
